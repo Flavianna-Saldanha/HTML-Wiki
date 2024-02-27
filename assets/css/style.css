@@ -1,0 +1,169 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #202024;
+    color: white;
+    background: url(https://i1.wp.com/www.multarte.com.br/wp-content/uploads/2019/01/fundo-tumblr-preto29.jpg?fit=696%2C464&ssl=1); 
+}
+
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color: blue; 
+    text-decoration: none;
+}
+
+.bar {
+    background-color: #202024;
+    padding: 15px;
+    border-bottom: solid 2px rgb(222, 228, 235);
+    background: url(https://i1.wp.com/www.multarte.com.br/wp-content/uploads/2019/01/fundo-tumblr-preto29.jpg?fit=696%2C464&ssl=1); 
+}
+
+.content {
+    max-width: 100%;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: 
+        "sidebar main anchors";
+
+    grid-template-columns: 
+        minmax(0, 1fr) 
+        minmax(0, 2.5fr) 
+        minmax(0, 1fr);
+    
+    padding-left: 1rem;
+    padding-right: 1rem;}
+
+.footer {
+    min-height: 100px;
+    border-top: solid 2px rgb(222, 228, 235);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.anchors {
+    border-left: solid 4px rgb(222, 228, 235);
+    padding-left: 16px;
+}
+
+.sidebar {
+    border-right: solid 4px rgb(222, 228, 235);
+}
+
+table, th, td {
+    margin-top: 30px;
+    padding: 2px;
+    border: 1px solid rgb(222, 228, 235);
+    border-collapse: collapse;
+    text-align: center;
+    color: black;
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/1013/403/desktop-wallpaper-tumblr-the-walking-dead-the-walking-dead.jpg);
+}
+
+th {
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 5px;
+    color: white;
+}
+
+.img {
+    margin-left: 65px;
+    margin-right: 260px;
+    width: 100%;
+}
+
+hr {
+    border: 3px solid #B8860B; 
+    margin-top: 18px;
+}
+
+a {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: cursive;
+}
+
+nav ul li {
+    border-bottom: 1px solid rgb(222, 228, 235);
+}
+
+nav ul li a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+nav ul li a:hover {
+    background-color: #E0E0F8;
+    color: rgb(46, 62, 77);
+}
+
+.conteudo {
+    margin-bottom: 15px; 
+    font-family: cursive;
+}
+
+.seriados, .conteudo, p {
+    font-family: 'Comfortaa', cursive;
+}
+
+.inicio {
+    border: 1px solid white;
+    border-radius: 25%;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+mark {
+    background: url(https://e1.pxfuel.com/desktop-wallpaper/1013/403/desktop-wallpaper-tumblr-the-walking-dead-the-walking-dead.jpg);
+    color: white;
+    font-family: cursive;
+}
+
+.iicon {
+    float: right;
+    margin: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .content {
+        grid-template-areas: 
+            "main"
+            "sidebar"
+            "anchors";
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar,
+    .anchors {
+        border: none;
+        padding: 0;
+    }
+
+    .img {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
