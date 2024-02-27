@@ -6,4 +6,5 @@ WikiSéries é uma plataforma dedicada a oferecer insights detalhados sobre vár
 
 # Como Navegar
 **Seriados:** Explore nossa lista de séries e clique nos links para obter detalhes específicos.
+
 **Conteúdo:** Navegue pelo conteúdo disponível usando as âncoras fornecidas.
